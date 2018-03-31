@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#B51717',
       marginBottom: '1.45rem',
     }}
   >
@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Osaka RubyKaigi 2018
         </Link>
       </h1>
     </div>
