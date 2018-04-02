@@ -3,15 +3,27 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>大阪Ruby会議2018</h1>
-    <p>日付：2018年7月21日（土）</p>
-    <p>場所：大阪科学技術センター</p>
-    <p>講演：まつもと ゆきひろ</p>
-    <p>
-      参加：<a href="https://rubykansai.doorkeeper.jp/events/72775">
-        こちらから
-      </a>
-    </p>
+    <h2>大阪Ruby会議2018</h2>
+    <ul>
+      <li>日付：2018年7月21日（土）</li>
+      <li>場所：大阪科学技術センター</li>
+    </ul>
+    <h2>参加</h2>
+    <ul>
+      <li>
+        <a href="https://rubykansai.doorkeeper.jp/events/72775">こちらから</a>
+      </li>
+    </ul>
+    <h2>講演</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/matz">まつもとゆきひろ</a>
+      </li>
+      <li>
+        <a href="https://github.com/yuki24">yuki24</a>
+      </li>
+    </ul>
+
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </div>
 )
