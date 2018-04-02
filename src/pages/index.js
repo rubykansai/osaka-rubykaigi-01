@@ -22,6 +22,9 @@ const IndexPage = () => (
       <li>
         <a href="https://github.com/yuki24">yuki24</a>
       </li>
+      <li>
+        <a href="https://github.com/tarosay">たろサ</a>
+      </li>
     </ul>
 
     {/* <Link to="/page-2/">Go to page 2</Link> */}
