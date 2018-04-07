@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h2>大阪Ruby会議2018</h2>
+    <h2>大阪Ruby会議01</h2>
     <p>
       大阪で<a href="http://regional.rubykaigi.org/">地域Ruby会議</a>のイベントを開催します。
     </p>
