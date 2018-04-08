@@ -1,0 +1,2 @@
+webpackJsonp([0x73064009e7e8],{317:function(a,e){a.exports={data:{site:{siteMetadata:{title:"Osaka RubyKaigi 01",author:"RubyKansai"}},markdownRemark:{id:"/Users/ogom/Private/projects/rubykansai/osaka01/gh-pages/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",html:"<p>example</p>",frontmatter:{title:"example",date:"April 08, 2018"}}},pathContext:{}}}});
+//# sourceMappingURL=path---example-1bb381051b9d1a1d8d14.js.map
