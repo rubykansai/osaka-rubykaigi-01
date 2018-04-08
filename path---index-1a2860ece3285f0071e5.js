@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{318:function(a,i){a.exports={data:{site:{siteMetadata:{title:"Osaka RubyKaigi 01",description:"Regional RubyKaigi at Osaka 01",keywords:"Regional RubyKaigi Osaka RubyKansai Ruby"}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-1a2860ece3285f0071e5.js.map
