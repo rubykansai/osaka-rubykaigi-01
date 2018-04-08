@@ -3,6 +3,7 @@ module.exports = {
     title: 'Osaka RubyKaigi 01',
     author: 'RubyKansai',
     description: 'Regional RubyKaigi at Osaka 01',
+    keywords: 'Regional RubyKaigi Osaka RubyKansai Ruby',
   },
   pathPrefix: '/osaka-rubykaigi-01',
   plugins: [

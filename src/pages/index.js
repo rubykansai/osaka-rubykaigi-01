@@ -10,10 +10,18 @@ import pic04 from '../assets/images/pic04.jpg'
 class Homepage extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
+    const siteDescription = this.props.data.site.siteMetadata.description
+    const siteKeywords = this.props.data.site.siteMetadata.keywords
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet
+          title={siteTitle}
+          meta={[
+            { name: 'description', content: siteDescription },
+            { name: 'keywords', content: siteKeywords },
+          ]}
+        />
 
         <section id="one" className="main style1">
           <div className="grid-wrapper">
@@ -189,6 +197,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
+        keywords
       }
     }
   }
