@@ -145,21 +145,21 @@ class Homepage extends React.Component {
               <span className="image fit">
                 <img src={pic02} alt="" />
               </span>
-              <h3>Gold Sponsor</h3>
+              <h3>Ruby Sponsor</h3>
               <p>Message...</p>
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
-              <h3>Gold Sponsor</h3>
+              <h3>Ruby Sponsor</h3>
               <p>Message...</p>
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
-              <h3>Gold Sponsor</h3>
+              <h3>Ruby Sponsor</h3>
               <p>Message...</p>
             </div>
           </div>
