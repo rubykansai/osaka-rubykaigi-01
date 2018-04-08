@@ -1,9 +1,9 @@
 {
-  "name": "osaka-rubykaigi-01",
+  "name": "osaka01",
   "description": "Osaka RubyKaigi 01",
   "private": true,
   "version": "1.0.0",
-  "author": "rubykansai",
+  "author": "RubyKansai",
   "dependencies": {
     "gatsby": "^1.9.243",
     "gatsby-image": "^1.0.42",
@@ -18,7 +18,11 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5"
   },
-  "keywords": ["osaka", "ruby", "rubykaigi"],
+  "keywords": [
+    "osaka",
+    "ruby",
+    "rubykaigi"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
