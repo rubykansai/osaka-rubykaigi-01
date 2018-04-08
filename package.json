@@ -18,7 +18,11 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5"
   },
-  "keywords": ["osaka", "ruby", "rubykaigi"],
+  "keywords": [
+    "osaka",
+    "ruby",
+    "rubykaigi"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
