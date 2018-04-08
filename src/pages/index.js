@@ -116,9 +116,7 @@ class Homepage extends React.Component {
                     <tr>
                       <td>15:30</td>
                       <td>Coming Soon.</td>
-                      <td>
-                        <td>Coming Soon.</td>
-                      </td>
+                      <td>Coming Soon.</td>
                     </tr>
                     <tr>
                       <td>17:40</td>
@@ -148,21 +146,21 @@ class Homepage extends React.Component {
                 <img src={pic02} alt="" />
               </span>
               <h3>Gold Sponsor</h3>
-              <p>Massage...</p>
+              <p>Message...</p>
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
               <h3>Gold Sponsor</h3>
-              <p>Massage...</p>
+              <p>Message...</p>
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
               <h3>Gold Sponsor</h3>
-              <p>Massage...</p>
+              <p>Message...</p>
             </div>
           </div>
         </section>

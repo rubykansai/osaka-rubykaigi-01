@@ -17,3 +17,11 @@ $ npm install
 ```
 $ npm run develop
 ```
+
+## Deploy
+
+Deployment is GitHub Pages:
+
+```
+$ npm run deploy
+```
