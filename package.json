@@ -18,19 +18,17 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5"
   },
-  "keywords": [
-    "osaka",
-    "ruby",
-    "rubykaigi"
-  ],
+  "keywords": ["osaka", "ruby", "rubykaigi"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "prettier": "^1.11.1"
   }
 }

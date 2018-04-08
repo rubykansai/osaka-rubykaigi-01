@@ -4,6 +4,7 @@ module.exports = {
     author: 'RubyKansai',
     description: 'Regional RubyKaigi at Osaka 01',
   },
+  pathPrefix: '/osaka-rubykaigi-01',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
