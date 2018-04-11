@@ -11,7 +11,9 @@ import ruby from '../assets/images/team/ruby.jpg'
 import higaki from '../assets/images/team/higaki.png'
 import honeniq from '../assets/images/team/honeniq.png'
 import ogom from '../assets/images/team/ogom.jpg'
+import rito from '../assets/images/team/rito.png'
 import yucky from '../assets/images/team/yucky.jpg'
+import znz from '../assets/images/team/znz.jpg'
 
 class Homepage extends React.Component {
   render() {
@@ -227,8 +229,12 @@ class Homepage extends React.Component {
               <p>ogom</p>
             </div>
             <div className="col-2">
-              <a href="" className="image avatar" target="_blank">
-                <img src={ruby} alt="" />
+              <a
+                href="https://twitter.com/chimame_rt"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={rito} alt="" />
               </a>
               <p>rito</p>
             </div>
@@ -243,8 +249,12 @@ class Homepage extends React.Component {
               <p>yucky</p>
             </div>
             <div className="col-2">
-              <a href="" className="image avatar" target="_blank">
-                <img src={ruby} alt="" />
+              <a
+                href="https://github.com/znz"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={znz} alt="" />
               </a>
               <p>znz</p>
             </div>
