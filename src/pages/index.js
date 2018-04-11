@@ -7,6 +7,8 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
+import sponsor_ateam from '../assets/images/sponsor/ateam.png'
+
 class Homepage extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -123,7 +125,7 @@ class Homepage extends React.Component {
                     </tr>
                     <tr>
                       <td>15:30</td>
-                      <td>Coming Soon.</td>
+                      <td>Lightning Talks</td>
                       <td>Coming Soon.</td>
                     </tr>
                     <tr>
@@ -147,28 +149,26 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>Sponsors</h2>
               </header>
-              <p>Coming Soon.</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <a href="http://www.a-tm.co.jp/" target="_blank">
+                  <img src={sponsor_ateam} alt="" />
+                </a>
               </span>
-              <h3>Ruby Sponsor</h3>
-              <p>Message...</p>
+              <p>株式会社エイチーム</p>
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
-              <h3>Ruby Sponsor</h3>
-              <p>Message...</p>
+              <p>Ruby Sponsor</p>
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
-              <h3>Ruby Sponsor</h3>
-              <p>Message...</p>
+              <p>Ruby Sponsor</p>
             </div>
           </div>
         </section>
