@@ -3,11 +3,15 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
+import ateam from '../assets/images/sponsor/ateam.png'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
-import sponsor_ateam from '../assets/images/sponsor/ateam.png'
+import ruby from '../assets/images/team/ruby.jpg'
+import higaki from '../assets/images/team/higaki.png'
+import honeniq from '../assets/images/team/honeniq.png'
+import ogom from '../assets/images/team/ogom.jpg'
+import yucky from '../assets/images/team/yucky.jpg'
 
 class Homepage extends React.Component {
   render() {
@@ -153,7 +157,7 @@ class Homepage extends React.Component {
             <div className="col-4">
               <span className="image fit">
                 <a href="http://www.a-tm.co.jp/" target="_blank">
-                  <img src={sponsor_ateam} alt="" />
+                  <img src={ateam} alt="" />
                 </a>
               </span>
               <p>株式会社エイチーム</p>
@@ -174,11 +178,88 @@ class Homepage extends React.Component {
         </section>
 
         <section id="four" className="main style2 special">
-          <div className="container">
-            <header className="major">
-              <h2>Team</h2>
-            </header>
-            <p>Coming Soon.</p>
+          <div className="grid-wrapper">
+            <div className="col-12">
+              <header className="major">
+                <h2>Team</h2>
+              </header>
+            </div>
+            <div className="col-2">
+              <a href="" className="image avatar" target="_blank">
+                <img src={ruby} alt="" />
+              </a>
+              <p>cuzic</p>
+            </div>
+            <div className="col-2">
+              <a href="" className="image avatar" target="_blank">
+                <img src={ruby} alt="" />
+              </a>
+              <p>FUNABARA Masao</p>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://twitter.com/higaki"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={higaki} alt="" />
+              </a>
+              <p>higaki</p>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://twitter.com/honeniq"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={honeniq} alt="" />
+              </a>
+              <p>honeniq</p>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://twitter.com/ogomr"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={ogom} alt="" />
+              </a>
+              <p>ogom</p>
+            </div>
+            <div className="col-2">
+              <a href="" className="image avatar" target="_blank">
+                <img src={ruby} alt="" />
+              </a>
+              <p>rito</p>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://twitter.com/yucky_sun"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={yucky} alt="" />
+              </a>
+              <p>yucky</p>
+            </div>
+            <div className="col-2">
+              <a href="" className="image avatar" target="_blank">
+                <img src={ruby} alt="" />
+              </a>
+              <p>znz</p>
+            </div>
+            <div className="col-2">
+              <a href="" className="image avatar" target="_blank">
+                <img src={ruby} alt="" />
+              </a>
+              <p>-</p>
+            </div>
+            <div className="col-2">
+              <a href="" className="image avatar" target="_blank">
+                <img src={ruby} alt="" />
+              </a>
+              <p>-</p>
+            </div>
           </div>
         </section>
       </div>

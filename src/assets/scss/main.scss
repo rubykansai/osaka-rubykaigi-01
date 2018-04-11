@@ -552,6 +552,18 @@ input[type='radio'] {
       width: 100%;
     }
   }
+  &.avatar {
+    border-radius: 100%;
+
+    &:before {
+      display: none;
+    }
+
+    img {
+      border-radius: 100%;
+      width: 100%;
+    }
+  }
 }
 
 /* List */
