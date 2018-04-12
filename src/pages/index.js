@@ -166,7 +166,7 @@ class Homepage extends React.Component {
                 </a>
               </span>
               <h3>株式会社エイチーム</h3>
-              <p>
+              <p className="align-left">
                 エイチームは、ゲーム/アプリ・WebサービスやECサービスを手掛ける総合ITベンチャー企業。Ruby
                 on
                 Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発し、日々サービスを運用しております。
@@ -174,12 +174,12 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <a href="http://www.a-tm.co.jp/" target="_blank">
+                <a href="https://aiming-inc.com/ja/" target="_blank">
                   <img src={aiming} alt="" />
                 </a>
               </span>
               <h3>株式会社 Aiming</h3>
-              <p>
+              <p className="align-left">
                 株式会社Aimingは、オンラインゲームの企画・プロデュース・開発・運営を行う会社です。リアルタイム通信技術とともにオンラインゲームのサーバーを支えるweb技術としてRubyを使った開発をしています。
               </p>
             </div>
