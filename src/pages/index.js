@@ -169,7 +169,7 @@ class Homepage extends React.Component {
               <p className="align-left">
                 エイチームは、ゲーム/アプリ・WebサービスやECサービスを手掛ける総合ITベンチャー企業。Ruby
                 on
-                Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発し、日々サービスを運用しております。
+                Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発し、様々なサービスを運用しております。
               </p>
             </div>
             <div className="col-4">
