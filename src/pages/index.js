@@ -4,11 +4,14 @@ import Helmet from 'react-helmet'
 
 import pic01 from '../assets/images/pic01.jpg'
 import ateam from '../assets/images/sponsor/ateam.png'
+import aiming from '../assets/images/sponsor/aiming.png'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
 import ruby from '../assets/images/team/ruby.jpg'
+import steps from '../assets/images/team/steps.png'
 import higaki from '../assets/images/team/higaki.png'
+import n11sh1 from '../assets/images/team/n11sh1.jpg'
 import honeniq from '../assets/images/team/honeniq.png'
 import ogom from '../assets/images/team/ogom.jpg'
 import rito from '../assets/images/team/rito.png'
@@ -162,13 +165,23 @@ class Homepage extends React.Component {
                   <img src={ateam} alt="" />
                 </a>
               </span>
-              <p>株式会社エイチーム</p>
+              <h3>株式会社エイチーム</h3>
+              <p>
+                エイチームは、ゲーム/アプリ・WebサービスやECサービスを手掛ける総合ITベンチャー企業。Ruby
+                on
+                Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発し、日々サービスを運用しております。
+              </p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <a href="http://www.a-tm.co.jp/" target="_blank">
+                  <img src={aiming} alt="" />
+                </a>
               </span>
-              <p>Ruby Sponsor</p>
+              <h3>株式会社 Aiming</h3>
+              <p>
+                株式会社Aimingは、オンラインゲームの企画・プロデュース・開発・運営を行う会社です。リアルタイム通信技術とともにオンラインゲームのサーバーを支えるweb技術としてRubyを使った開発をしています。
+              </p>
             </div>
             <div className="col-4">
               <span className="image fit">
@@ -187,16 +200,20 @@ class Homepage extends React.Component {
               </header>
             </div>
             <div className="col-2">
-              <a href="" className="image avatar" target="_blank">
-                <img src={ruby} alt="" />
+              <a
+                href="https://twitter.com/107steps"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={steps} alt="" />
               </a>
-              <p>cuzic</p>
+              <p>107steps</p>
             </div>
             <div className="col-2">
               <a href="" className="image avatar" target="_blank">
                 <img src={ruby} alt="" />
               </a>
-              <p>FUNABARA Masao</p>
+              <p>cuzic</p>
             </div>
             <div className="col-2">
               <a
@@ -217,6 +234,16 @@ class Homepage extends React.Component {
                 <img src={honeniq} alt="" />
               </a>
               <p>honeniq</p>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://github.com/n11sh1"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={n11sh1} alt="" />
+              </a>
+              <p>n11sh1</p>
             </div>
             <div className="col-2">
               <a
@@ -257,12 +284,6 @@ class Homepage extends React.Component {
                 <img src={znz} alt="" />
               </a>
               <p>znz</p>
-            </div>
-            <div className="col-2">
-              <a href="" className="image avatar" target="_blank">
-                <img src={ruby} alt="" />
-              </a>
-              <p>-</p>
             </div>
             <div className="col-2">
               <a href="" className="image avatar" target="_blank">
