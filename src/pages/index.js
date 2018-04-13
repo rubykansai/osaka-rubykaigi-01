@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import pic01 from '../assets/images/pic01.jpg'
 import ateam from '../assets/images/sponsor/ateam.png'
 import aiming from '../assets/images/sponsor/aiming.png'
-import pic03 from '../assets/images/pic03.jpg'
+import enechange from '../assets/images/sponsor/enechange.png'
 import pic04 from '../assets/images/pic04.jpg'
 
 import ruby from '../assets/images/team/ruby.jpg'
@@ -116,14 +116,14 @@ class Homepage extends React.Component {
                     </tr>
                     <tr>
                       <td>13:00</td>
-                      <td>Coming Soon.</td>
+                      <td>TechTalk</td>
                       <td>
                         <a href="https://github.com/yuki24">yuki24</a>
                       </td>
                     </tr>
                     <tr>
                       <td>14:00</td>
-                      <td>Coming Soon.</td>
+                      <td>TechTalk</td>
                       <td>
                         <a href="https://github.com/tarosay">たろサ</a>
                       </td>
@@ -180,14 +180,20 @@ class Homepage extends React.Component {
               </span>
               <h3>株式会社 Aiming</h3>
               <p className="align-left">
-                株式会社Aimingは、オンラインゲームの企画・プロデュース・開発・運営を行う会社です。リアルタイム通信技術とともにオンラインゲームのサーバーを支えるweb技術としてRubyを使った開発をしています。
+                株式会社
+                Aimingは、オンラインゲームの企画・プロデュース・開発・運営を行う会社です。リアルタイム通信技術とともにオンラインゲームのサーバーを支えるweb技術としてRubyを使った開発をしています。
               </p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <a href="http://enechange.co.jp/" target="_blank">
+                  <img src={enechange} alt="" />
+                </a>
               </span>
-              <p>Ruby Sponsor</p>
+              <h3>エネチェンジ株式会社</h3>
+              <p className="align-left">
+                エネチェンジは、電力・ガス料金の比較サイト「エネチェンジ」を基軸に電力データの解析など「エネルギーの未来をつくる」会社です。エネルギー革命が加速する今、Rubyを用いたシステム開発はかかせません。
+              </p>
             </div>
           </div>
         </section>
