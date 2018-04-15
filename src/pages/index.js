@@ -11,8 +11,9 @@ import pic04 from '../assets/images/pic04.jpg'
 import ruby from '../assets/images/team/ruby.jpg'
 import steps from '../assets/images/team/steps.png'
 import higaki from '../assets/images/team/higaki.png'
-import n11sh1 from '../assets/images/team/n11sh1.jpg'
 import honeniq from '../assets/images/team/honeniq.png'
+import islands5 from '../assets/images/team/islands5.jpg'
+import n11sh1 from '../assets/images/team/n11sh1.jpg'
 import ogom from '../assets/images/team/ogom.jpg'
 import rito from '../assets/images/team/rito.png'
 import yucky from '../assets/images/team/yucky.jpg'
@@ -82,8 +83,6 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>Timetable</h2>
               </header>
-
-              <p>予告なく変更する場合がございます。</p>
 
               <div className="table-wrapper">
                 <table>
@@ -243,6 +242,16 @@ class Homepage extends React.Component {
             </div>
             <div className="col-2">
               <a
+                href="https://github.com/Islands5"
+                className="image avatar"
+                target="_blank"
+              >
+                <img src={islands5} alt="" />
+              </a>
+              <p>islands5</p>
+            </div>
+            <div className="col-2">
+              <a
                 href="https://github.com/n11sh1"
                 className="image avatar"
                 target="_blank"
@@ -290,12 +299,6 @@ class Homepage extends React.Component {
                 <img src={znz} alt="" />
               </a>
               <p>znz</p>
-            </div>
-            <div className="col-2">
-              <a href="" className="image avatar" target="_blank">
-                <img src={ruby} alt="" />
-              </a>
-              <p>-</p>
             </div>
           </div>
         </section>
