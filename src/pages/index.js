@@ -179,8 +179,7 @@ class Homepage extends React.Component {
               </span>
               <h3>株式会社 Aiming</h3>
               <p className="align-left">
-                株式会社
-                Aimingは、オンラインゲームの企画・プロデュース・開発・運営を行う会社です。リアルタイム通信技術とともにオンラインゲームのサーバーを支えるweb技術としてRubyを使った開発をしています。
+                Aimingは、オンラインゲームの企画・プロデュース・開発・運営を行う会社です。リアルタイム通信技術と共に、オンラインゲームのサーバーを支えるweb技術としてRubyを使った開発を行っています。
               </p>
             </div>
             <div className="col-4">
