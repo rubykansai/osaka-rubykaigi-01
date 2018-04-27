@@ -15,6 +15,7 @@ const Header = () => (
           Osaka Science & Technology Center
         </a>
       </p>
+      <p>4階 401号室</p>
       <ul className="actions">
         <li>
           <a
