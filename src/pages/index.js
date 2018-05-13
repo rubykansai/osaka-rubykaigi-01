@@ -134,7 +134,13 @@ class Homepage extends React.Component {
                     <tr>
                       <td>15:30</td>
                       <td>Lightning Talks</td>
-                      <td>Coming Soon.</td>
+                      <td>
+                        <a href="https://twitter.com/satomicchy">satomicchy</a>
+                        <br />
+                        <a href="https://twitter.com/yalab">yalab</a>
+                        <br />
+                        ... Coming Soon.
+                      </td>
                     </tr>
                     <tr>
                       <td>17:40</td>
