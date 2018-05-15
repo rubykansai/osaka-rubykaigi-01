@@ -135,6 +135,8 @@ class Homepage extends React.Component {
                       <td>15:30</td>
                       <td>Lightning Talks</td>
                       <td>
+                        <a href="https://twitter.com/anzu_mmm">kiryuanzu</a>
+                        <br />
                         <a href="https://twitter.com/satomicchy">satomicchy</a>
                         <br />
                         <a href="https://twitter.com/yalab">yalab</a>
