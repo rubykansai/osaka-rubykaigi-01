@@ -143,6 +143,8 @@ class Homepage extends React.Component {
                         <br />
                         <a href="https://twitter.com/satomicchy">satomicchy</a>
                         <br />
+                        <a href="https://twitter.com/syobochim">syobochim</a>
+                        <br />
                         <a href="https://twitter.com/yalab">yalab</a>
                         <br />
                         <a href="https://twitter.com/zaru">zaru</a>
