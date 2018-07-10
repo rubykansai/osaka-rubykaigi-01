@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import logo from '../assets/images/logo.png'
 import pic01 from '../assets/images/pic01.jpg'
 import ateam from '../assets/images/sponsor/ateam.png'
 import aiming from '../assets/images/sponsor/aiming.png'
@@ -41,11 +42,15 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>About</h2>
               </header>
+              <span className="image left">
+                <img src={logo} alt="" />
+              </span>
               <p>
-                大阪で<a href="http://regional.rubykaigi.org/">地域Ruby会議</a>の大阪Ruby会議01を開催します。
+                大阪で <a href="http://regional.rubykaigi.org/">地域Ruby会議</a>{' '}
+                の 大阪Ruby会議01
+                を開催します。多様なRubyに関わる方々の公演です。
               </p>
-
-              <p>「 みなさんと一緒にRubyを楽しみましょう！ 」</p>
+              <p>「 みなさんとRubyを楽しみましょう 」</p>
             </div>
             <div className="col-6">
               <span className="image fit">
@@ -135,23 +140,21 @@ class Homepage extends React.Component {
                       <td>15:30</td>
                       <td>Lightning Talks</td>
                       <td>
-                        <a href="https://twitter.com/ayumin">ayumin</a>
-                        <br />
+                        <a href="https://twitter.com/ayumin">ayumin</a>,{' '}
                         <a href="https://twitter.com/joker1007">joker1007</a>
                         <br />
-                        <a href="https://twitter.com/anzu_mmm">kiryuanzu</a>
-                        <br />
+                        <a href="https://twitter.com/anzu_mmm">
+                          kiryuanzu
+                        </a>,{' '}
                         <a href="https://twitter.com/satomicchy">satomicchy</a>
                         <br />
-                        <a href="https://twitter.com/syobochim">syobochim</a>
+                        <a href="https://twitter.com/syobochim">
+                          syobochim
+                        </a>, <a href="https://twitter.com/yalab">yalab</a>
                         <br />
-                        <a href="https://twitter.com/yalab">yalab</a>
-                        <br />
-                        <a href="https://twitter.com/yucky_sun">yucky_sun</a>
-                        <br />
-                        <a href="https://twitter.com/zaru">zaru</a>
-                        <br />
-                        ... Coming Soon.
+                        <a href="https://twitter.com/yucky_sun">
+                          yucky_sun
+                        </a>, <a href="https://twitter.com/zaru">zaru</a>
                       </td>
                     </tr>
                     <tr>
