@@ -543,6 +543,13 @@ input[type='radio'] {
     }
   }
 
+  &.logo {
+    img {
+      border-color: _palette(border);
+      border-width: 1px;
+      border-style: solid;
+    }
+  }
   &.fit {
     display: block;
     margin: 0 0 _size(element-margin) 0;

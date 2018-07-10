@@ -42,7 +42,7 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>About</h2>
               </header>
-              <span className="image left">
+              <span className="image logo left">
                 <img src={logo} alt="" />
               </span>
               <p>
