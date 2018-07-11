@@ -33,6 +33,11 @@ class Homepage extends React.Component {
           meta={[
             { name: 'description', content: siteDescription },
             { name: 'keywords', content: siteKeywords },
+            {
+              property: 'og:image',
+              content:
+                'https://raw.githubusercontent.com/rubykansai/osaka01/master/src/assets/images/og.png',
+            },
           ]}
         />
 
